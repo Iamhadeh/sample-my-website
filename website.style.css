@@ -1,0 +1,495 @@
+
+body {
+background-color: #141b3f;
+}
+
+.break-1 {
+    height: 5px;
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+    background-color:aliceblue ;
+}
+
+.break {
+    height: 5px;
+    margin: 0px;
+    padding: 0px;
+    background-color:aliceblue ;
+    
+}
+
+.picA {
+    height: 0px;
+    width: 0px;
+    border-radius: 50%;
+}
+
+.menu {
+    background-color: aliceblue;
+    display: flex;
+    padding-left: 100px;
+    gap: 20px;
+    width: auto;
+}
+
+.menu > div {
+    display: flex;
+    margin-left: 6px;
+   }
+
+   h2 {
+    color: silver;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Young Serif', serif;
+}
+
+   .specific-letter {
+    color: aliceblue;
+    width: 700px;
+    font-style: italic;
+    font-size: 40px;
+    font-family: 'Young Serif', serif;
+   }
+
+
+.menu > div > p {
+ color: #141b3f;
+}
+
+
+.Header-case {
+    display: flex;
+    justify-content: center;
+}
+
+.header {
+    height: 380px;
+    width: 750px;
+    display: grid;
+    grid-template-columns: 400px 300px;
+    gap: 50px;
+}
+
+
+.boxA {
+    height: 350px; 
+}
+
+.boxB {
+    width: 460px;
+}
+
+.header > div > img {
+    height: 420px;
+}
+
+p {
+    color: rgb(240, 215, 169);
+    font-size: 18px;
+}
+
+ul {
+    list-style-type: circle;
+}
+
+li {
+    color: white;
+    font-size: 18px;
+    font-style: bold;
+} 
+
+.motto > div > img {
+    height: 320px;
+    width: 200px;
+    border-radius: 3%;
+}
+
+.motto {
+    height: 600px;
+    width: 450px;
+    display: grid;
+    grid-template-columns: 220px 180px;
+    grid-template-rows: 150px 150px;
+    gap: 5px;
+    padding: 0px;
+    padding-top: 200px;
+}
+
+
+.A {
+    grid-column: span 1;
+    grid-row: span 2;
+    padding-top: 50px;
+}
+
+.B {
+    height: 100px;
+    padding-top: 50px;
+}
+
+.C {
+    height: 150px;
+}
+
+.motto-box {
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.story {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.story-item {
+    width: 580px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.special-c {
+    font-size: 17px;
+    color: silver;
+    font-weight: bold;
+}
+
+/* service area css starts here */
+
+
+
+.services {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+.first-box {
+    width: 300px;
+    height: 520px;
+    background-color: #061768;
+    display: flex;
+    justify-content: center;
+    border-radius: 5%;
+}
+
+.h2-box {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.image-h2-box > img {
+    border-radius: 50%;
+    height: 200px;
+    width: 150px;
+}
+
+.lines-h2-box {
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.learn-more-btn {
+    height: 20px;
+    width: 100px;
+    background-color: aliceblue;
+    border-radius: 8%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.learn-more-btn > p {
+    color: #141b3f;
+    font-size: 12px;
+}
+
+/* service css ends here */
+
+/* footer starts here*/
+
+
+.footer {
+    height: 100px;
+    background-color: aliceblue;
+}
+
+
+.social-media {
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+}
+
+.copyright > p {
+    color: #141b3f;
+
+}
+
+/* CTA */
+
+.resume {
+    height: 100px;
+    background-color: silver;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+}
+
+    
+
+@media screen and (min-width: 621px) and (max-width: 800px) {
+
+        
+    body {
+        background-color: #141b3f;
+    }
+
+    .motto > div > img {
+        height: 180px;
+        width: 300px;
+    }
+
+    .motto {
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    .header {
+        height: 380px;
+        width: 280px;
+        display: grid;
+        grid-template-columns: 180px 100px;
+        gap: 0px;
+    }
+
+    .boxB {
+        display: flex;
+        flex-direction: column;
+        padding-left: 0px;
+        width: 200px;
+       
+    }
+
+    .boxA {
+        display: flex;
+        width: 100px;
+    }
+
+    .motto-box {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-left: 10px;
+        padding-top: 220px;
+    }
+
+    .motto {
+        display: flex;
+        align-items: center;
+    }
+
+    .A {
+        display: flex;
+        position: relative;
+        padding-top: 0px;
+     }
+
+     .B {
+        height: 20px;
+     }
+
+    .menu {
+        padding-left: 0px;
+        gap: 8px;
+    }
+
+    p {
+        font-size: 16px;
+    }
+
+    .story {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 1px;
+    }
+
+    .story-item {
+        width: 580px;
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+        padding-top: 10px;
+
+    }
+
+    /* services */
+    
+.services {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+    
+    
+    /* services end */
+
+    /* .footer */
+
+
+}
+
+
+
+
+
+
+
+@media screen and (min-width: 30px) and (max-width: 619px) {
+    
+    body {
+        background-color: #141b3f;
+    }
+
+    .motto > div > img {
+        height: 100px;
+        width: 150px;
+    }
+    
+    .A {
+        padding-top: 50px;
+       height: 150px;
+     }
+
+     .motto > div >img {
+        height: 0px;
+        width: 00px;
+     }
+
+     .motto {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 200px;
+    }
+
+     .C {
+        padding-top: 20px;
+        height: 100px;
+        
+     }
+
+     .break-1 {
+        background-color: #141b3f;
+     }
+
+     .break {
+        height: 5px;
+        background-color: aliceblue;
+     }
+
+
+    .picAbox {
+        display: flex;
+        justify-content: center;
+    }
+
+    .picA {
+        height: 100px;
+        width: 100px;
+        border-radius: 50%;
+    }
+
+
+    .header {
+        height: 380px;
+        width: 320px;
+        display: flex;
+        flex-direction: column;
+        gap: 0px;
+    }
+
+    .motto-box {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-left: 10px;
+        padding-top: 200px;
+    }
+
+
+    .boxB {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-left: 10px;
+        width: 300px;
+       
+    }
+
+    .boxA {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 300px;
+    }
+
+    .menu {
+        padding-left: 0px;
+        gap: 5px;
+    }
+
+    
+    .menu > p {
+        font-size: 14px;
+        
+    }
+
+    .B {
+        height: 20px;
+        padding-top: 20px;
+        width: 300px;
+    }
+
+    p {
+        font-size: 16px;
+    }
+
+    .story-item {
+        width: 650px;
+        padding-top: 100px;
+
+    }
+
+    /* .services*/
+
+    .services {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 50px;
+    }
+
+    
+
+    
+  }
